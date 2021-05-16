@@ -13,17 +13,24 @@
 # Last Search Pattern:
 ~MSle0~/root
 
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1621145596,,"wq"
+|2,0,1621148374,,"wq"
 :q
-|2,0,1621145468,,"q"
-:q!
-|2,0,1621145425,,"q!"
-:w
-|2,0,1621145060,,"w"
+|2,0,1621148341,,"q"
 :term
-|2,0,1621144931,,"term"
+|2,0,1621148299,,"term"
+:q!
+|2,0,1621147961,,"q!"
+:E
+|2,0,1621147768,,"E"
+:sp
+|2,0,1621147766,,"sp"
+:w
+|2,0,1621147765,,"w"
 :w!
 |2,0,1621143580,,"w!"
 :!sudo 
@@ -32,8 +39,6 @@
 |2,0,1621143570,,"wq!"
 :v
 |2,0,1621140111,,"v"
-:sp
-|2,0,1621140026,,"sp"
 :let g:markdown_fenced_languages = ['js']
 |2,0,1621139818,,"let g:markdown_fenced_languages = ['js']"
 :let
@@ -46,6 +51,8 @@
 |2,0,1621138145,,"PlugInstall"
 
 # Search String History (newest to oldest):
+??\a
+|2,1,1621147768,63,"\\a"
 ?/root
 |2,1,1621138345,47,"root"
 
@@ -56,288 +63,355 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	!.config/fish/functions
-|3,1,0,1,1,0,1621145587,"!.config/fish/functions"
-"1	LINE	0
-	end
-|3,0,1,1,1,0,1621145422,"end"
+"0	CHAR	0
+	 
+|3,0,0,0,1,0,1621147789," "
+""1	LINE	0
+	!.viminfo
+|3,1,1,1,1,0,1621148370,"!.viminfo"
 "2	LINE	0
+	string sub -s 2 -e -1 (string match -r ":.*:")
+|3,0,2,1,1,0,1621147237,"string sub -s 2 -e -1 (string match -r \":.*:\")"
+"3	LINE	0
+	end
+|3,0,3,1,1,0,1621145422,"end"
+"4	LINE	0
 	function code --wraps=code-insiders --description 'alias code code-insiders'
 	  code-insiders  $argv;
-|3,0,2,1,2,0,1621145421,"function code --wraps=code-insiders --description 'alias code code-insiders'","  code-insiders  $argv;"
-"3	LINE	0
+|3,0,4,1,2,0,1621145421,"function code --wraps=code-insiders --description 'alias code code-insiders'","  code-insiders  $argv;"
+"5	LINE	0
 	dsd.node_repl_history
-|3,0,3,1,1,0,1621145027,"dsd.node_repl_history"
-"4	LINE	0
+|3,0,5,1,1,0,1621145027,"dsd.node_repl_history"
+"6	LINE	0
 	.ssh
 	.npm
-|3,0,4,1,2,0,1621145025,".ssh",".npm"
-"5	LINE	0
-	.vscode-server
-	vimwiki
-|3,0,5,1,2,0,1621145024,".vscode-server","vimwiki"
-"6	LINE	0
+|3,0,6,1,2,0,1621145025,".ssh",".npm"
+"7	LINE	0
 	Documents
 	src
-|3,0,6,1,2,0,1621145024,"Documents","src"
-"7	LINE	0
-	
-|3,0,7,1,1,0,1621141712,""
+|3,0,7,1,2,0,1621145024,"Documents","src"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1621141709,""
+	Documents
+	src
+|3,0,8,1,2,0,1621145024,"Documents","src"
 "9	LINE	0
 	
-	
-|3,0,9,1,2,0,1621141694,"",""
+|3,0,9,1,1,0,1621141712,""
 "-	CHAR	0
-	/functions
-|3,0,36,0,1,0,1621145557,"/functions"
+	"
+|3,0,36,0,1,0,1621148024,"\""
 
 # File marks:
-'0  9  22  ~/.gitignore
-|4,48,9,22,1621145596,"~/.gitignore"
-'1  7  8  ~/.gitignore
-|4,49,7,8,1621145565,"~/.gitignore"
-'2  7  8  ~/.gitignore
-|4,50,7,8,1621145565,"~/.gitignore"
-'3  6  0  ~/.config/fish/functions/replay.fish
-|4,51,6,0,1621145468,"~/.config/fish/functions/replay.fish"
-'4  1  0  ~/.config/fish/functions/fisher.fish
-|4,52,1,0,1621145444,"~/.config/fish/functions/fisher.fish"
-'5  1  0  ~/.config/fish/functions/code.fish.backup
-|4,53,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
-'6  1  0  ~/.config/fish/functions/__z.fish
-|4,54,1,0,1621145297,"~/.config/fish/functions/__z.fish"
-'7  1  0  ~/.config/fish/functions/peco_select_tmux_window.fish
-|4,55,1,0,1621144641,"~/.config/fish/functions/peco_select_tmux_window.fish"
-'8  1  9  ~/.config/fish/functions/x.fish
-|4,56,1,9,1621144577,"~/.config/fish/functions/x.fish"
-'9  1  9  ~/.config/fish/functions/h.fish
-|4,57,1,9,1621144541,"~/.config/fish/functions/h.fish"
+'0  5  0  ~/.gitignore
+|4,48,5,0,1621148374,"~/.gitignore"
+'1  29  0  ~/vimwiki/express.md
+|4,49,29,0,1621148341,"~/vimwiki/express.md"
+'2  1  9  ~/.config/fish/functions/v.fish
+|4,50,1,9,1621148324,"~/.config/fish/functions/v.fish"
+'3  1  0  ~/.config/fish/functions/v.fish
+|4,51,1,0,1621148318,"~/.config/fish/functions/v.fish"
+'4  1  0  ~/vimwiki/express.md
+|4,52,1,0,1621148286,"~/vimwiki/express.md"
+'5  1  0  ~/vimwiki/express.md
+|4,53,1,0,1621148286,"~/vimwiki/express.md"
+'6  17  36  ~/.config/fish/functions/v.fish
+|4,54,17,36,1621148262,"~/.config/fish/functions/v.fish"
+'7  17  36  ~/.config/fish/functions/v.fish
+|4,55,17,36,1621148262,"~/.config/fish/functions/v.fish"
+'8  17  36  ~/.config/fish/functions/v.fish
+|4,56,17,36,1621148262,"~/.config/fish/functions/v.fish"
+'9  17  36  ~/.config/fish/functions/v.fish
+|4,57,17,36,1621148262,"~/.config/fish/functions/v.fish"
 
 # Jumplist (newest first):
--'  9  22  ~/.gitignore
-|4,39,9,22,1621145596,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1621148374,"~/.gitignore"
 -'  1  0  ~/.gitignore
-|4,39,1,0,1621145582,"~/.gitignore"
--'  7  8  ~/.gitignore
-|4,39,7,8,1621145565,"~/.gitignore"
--'  7  8  ~/.gitignore
-|4,39,7,8,1621145565,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621145538,"~/.gitignore"
--'  6  0  ~/.config/fish/functions/replay.fish
-|4,39,6,0,1621145468,"~/.config/fish/functions/replay.fish"
--'  6  0  ~/.config/fish/functions/replay.fish
-|4,39,6,0,1621145468,"~/.config/fish/functions/replay.fish"
--'  6  0  ~/.config/fish/functions/replay.fish
-|4,39,6,0,1621145468,"~/.config/fish/functions/replay.fish"
--'  6  0  ~/.config/fish/functions/replay.fish
-|4,39,6,0,1621145468,"~/.config/fish/functions/replay.fish"
--'  1  0  ~/.config/fish/functions/replay.fish
-|4,39,1,0,1621145454,"~/.config/fish/functions/replay.fish"
--'  1  0  ~/.config/fish/functions/replay.fish
-|4,39,1,0,1621145454,"~/.config/fish/functions/replay.fish"
--'  1  0  ~/.config/fish/functions/replay.fish
-|4,39,1,0,1621145454,"~/.config/fish/functions/replay.fish"
--'  1  0  ~/.config/fish/functions/replay.fish
-|4,39,1,0,1621145454,"~/.config/fish/functions/replay.fish"
--'  1  0  ~/.config/fish/functions/fisher.fish
-|4,39,1,0,1621145444,"~/.config/fish/functions/fisher.fish"
--'  1  0  ~/.config/fish/functions/fisher.fish
-|4,39,1,0,1621145444,"~/.config/fish/functions/fisher.fish"
--'  1  0  ~/.config/fish/functions/fisher.fish
-|4,39,1,0,1621145444,"~/.config/fish/functions/fisher.fish"
--'  1  0  ~/.config/fish/functions/fisher.fish
-|4,39,1,0,1621145444,"~/.config/fish/functions/fisher.fish"
--'  1  0  ~/.config/fish/functions/fisher.fish
-|4,39,1,0,1621145444,"~/.config/fish/functions/fisher.fish"
--'  1  0  ~/.config/fish/functions/fisher.fish
-|4,39,1,0,1621145444,"~/.config/fish/functions/fisher.fish"
--'  1  0  ~/.config/fish/functions/fisher.fish
-|4,39,1,0,1621145444,"~/.config/fish/functions/fisher.fish"
--'  1  0  ~/.config/fish/functions/fisher.fish
-|4,39,1,0,1621145444,"~/.config/fish/functions/fisher.fish"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/code.fish.backup
-|4,39,1,0,1621145425,"~/.config/fish/functions/code.fish.backup"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.config/fish/functions/__z.fish
-|4,39,1,0,1621145297,"~/.config/fish/functions/__z.fish"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1621144931,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
--'  1  3  ~/.gitignore
-|4,39,1,3,1621144901,"~/.gitignore"
+|4,39,1,0,1621148360,"~/.gitignore"
+-'  29  0  ~/vimwiki/express.md
+|4,39,29,0,1621148341,"~/vimwiki/express.md"
+-'  29  0  ~/vimwiki/express.md
+|4,39,29,0,1621148341,"~/vimwiki/express.md"
+-'  12  0  ~/vimwiki/express.md
+|4,39,12,0,1621148336,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148336,"~/vimwiki/express.md"
+-'  12  0  ~/vimwiki/express.md
+|4,39,12,0,1621148336,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148336,"~/vimwiki/express.md"
+-'  1  9  ~/.config/fish/functions/v.fish
+|4,39,1,9,1621148324,"~/.config/fish/functions/v.fish"
+-'  1  9  ~/.config/fish/functions/v.fish
+|4,39,1,9,1621148324,"~/.config/fish/functions/v.fish"
+-'  1  9  ~/.config/fish/functions/v.fish
+|4,39,1,9,1621148324,"~/.config/fish/functions/v.fish"
+-'  1  9  ~/.config/fish/functions/v.fish
+|4,39,1,9,1621148324,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/.config/fish/functions/v.fish
+|4,39,1,0,1621148318,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/.config/fish/functions/v.fish
+|4,39,1,0,1621148318,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/.config/fish/functions/v.fish
+|4,39,1,0,1621148318,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/.config/fish/functions/v.fish
+|4,39,1,0,1621148318,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148286,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148286,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148286,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148286,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148286,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148286,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148286,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148286,"~/vimwiki/express.md"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  17  36  ~/.config/fish/functions/v.fish
+|4,39,17,36,1621148262,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/.config/fish/functions/v.fish
+|4,39,1,0,1621148250,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/.config/fish/functions/v.fish
+|4,39,1,0,1621148250,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/.config/fish/functions/v.fish
+|4,39,1,0,1621148250,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/.config/fish/functions/v.fish
+|4,39,1,0,1621148250,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/.config/fish/functions/v.fish
+|4,39,1,0,1621148250,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/.config/fish/functions/v.fish
+|4,39,1,0,1621148250,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/.config/fish/functions/v.fish
+|4,39,1,0,1621148250,"~/.config/fish/functions/v.fish"
+-'  1  0  ~/.config/fish/functions/v.fish
+|4,39,1,0,1621148250,"~/.config/fish/functions/v.fish"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  5  0  ~/vimwiki/express.md
+|4,39,5,0,1621148247,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148245,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148216,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148216,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148216,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148216,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148216,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148216,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148216,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148216,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148216,"~/vimwiki/express.md"
+-'  1  0  ~/vimwiki/express.md
+|4,39,1,0,1621148216,"~/vimwiki/express.md"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1621145595	0
-	"	9	22
-	^	10	25
-	.	10	24
+	*	1621148371	0
+	"	5	0
+	^	10	12
+	.	5	0
 	+	1	9
 	+	1	3
 	+	1	17
 	+	1	2
-	+	2	5
-	+	9	0
+	+	2	1
+	+	5	7
+	+	4	0
+	+	5	0
+	+	5	7
+	+	5	0
 	+	7	0
+	+	8	0
+	+	11	0
+	+	5	0
+
+> ~/vimwiki/express.md
+	*	1621148340	0
+	"	29	0
+	^	59	24
+	.	59	23
+	+	2	30
+	+	2	48
+	+	3	22
+	+	2	0
+	+	1	9
+	+	4	0
+	+	6	0
+	+	5	0
+	+	6	0
+	+	51	8
+	+	52	13
+	+	53	30
+	+	63	2
+	+	51	17
+	+	57	28
+	+	62	2
+	+	55	0
+	+	56	29
+	+	59	23
+
+> ~/.config/fish/functions/v.fish
+	*	1621148323	0
+	"	1	9
+	^	1	10
+	.	1	9
+	+	15	32
+	+	14	19
+	+	17	36
+	+	1	9
+
+> ~/.config/fish/functions/t.fish
+	*	1621147830	0
+	"	18	15
+	^	14	67
+	.	14	66
 	+	9	0
-	+	8	13
-	+	10	23
-	+	9	22
-	+	10	24
+	+	14	69
+	+	17	35
+	+	11	37
+	+	13	38
+	+	16	44
+	+	1	9
+	+	17	25
+	+	14	66
+
+> ~/.config/fish/functions/c.fish
+	*	1621147830	0
+	"	12	0
+
+> ~/.config/fish/functions/f.fish
+	*	1621147419	0
+	"	1	0
+	^	11	9
+	.	11	9
+	+	1	9
+	+	11	9
+
+> /tmp/tmp.tfDWZbtO5z.fish
+	*	1621146416	0
+	"	1	0
 
 > ~/.config/fish/functions/replay.fish
 	*	1621145460	0
@@ -382,49 +456,12 @@
 	.	1	9
 	+	1	9
 
-> ~/vimwiki/express.md
-	*	1621144058	0
-	"	63	0
-	^	59	24
-	.	59	23
-	+	2	30
-	+	2	48
-	+	3	22
-	+	2	0
-	+	1	9
-	+	4	0
-	+	6	0
-	+	5	0
-	+	6	0
-	+	51	8
-	+	52	13
-	+	53	30
-	+	63	2
-	+	51	17
-	+	57	28
-	+	62	2
-	+	55	0
-	+	56	29
-	+	59	23
-
-> ~/.config/fish/functions/f.fish
-	*	1621144005	0
-	"	10	8
-	^	11	9
-	.	11	9
-	+	1	9
-	+	11	9
-
 > ~/.config/fish/functions/m.fish
 	*	1621143961	0
 	"	1	0
 	^	11	20
 	.	11	19
 	+	11	19
-
-> ~/.config/fish/functions/v.fish
-	*	1621143926	0
-	"	1	0
 
 > ~/.config/fish/functions/vimwiki_file.fish
 	*	1621143852	0
